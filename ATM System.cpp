@@ -41,7 +41,7 @@ vector<string> SplitString(string S1, string Delim)
     
     while ((pos = S1.find(Delim)) != std::string::npos)
     {
-        sWord = S1.substr(0, pos); // store the word   
+        sWord = S1.substr(0, pos);    
         if (sWord != "")
         {
             vString.push_back(sWord);
